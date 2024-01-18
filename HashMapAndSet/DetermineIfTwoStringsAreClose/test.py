@@ -15,6 +15,9 @@ class MyTestCase(unittest.TestCase):
     def test_three(self):
         sol = Solution()
         self.assertEqual(True, sol.closeStrings("cabbba", "abbccc"))
+    def test_four(self):
+        sol = Solution()
+        self.assertEqual(False, sol.closeStrings("uau", "cxx"))
 
 
 if __name__ == '__main__':
